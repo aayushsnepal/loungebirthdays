@@ -27,7 +27,7 @@ async def check():
     currtime = datetime.now()
     month = currtime.month
     day = currtime.day
-    hour = currtime.hour + 5
+    hour = currtime.hour
     minute = currtime.minute
     second = currtime.second
     if hour == 0 and minute == 00:
@@ -35,11 +35,6 @@ async def check():
         guild = client.get_guild(131876630959226880)
         channel = client.get_channel(559064512766935070)
         role = guild.get_role(516412507254947858)
-        # channel = client.get_channel(738171909157683250) # poopsock-test
-
-        aici = client.get_guild(684170722859548701)
-
-        aicigeneral = client.get_channel(684170723333636213)
 
         aiciwho = client.get_channel(774776214459383830)
         if month == 1 and day == 3:
