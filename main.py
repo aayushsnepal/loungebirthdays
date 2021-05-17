@@ -14,6 +14,7 @@ now = datetime.now()
 currentMonth = now.strftime("%m")
 currentDay = now.strftime("%d")
 client = commands.Bot(command_prefix='&', intents=intents)
+hours = 0
 
 @client.event
 async def on_ready():
@@ -22,7 +23,33 @@ async def on_ready():
 
     readytime = now.strftime("%H:%M:%S")
     print(readytime)
+    
+@client.event
+async def on_message(message):
+    channel = message.channel
+    global hours
+    if message.author.bot:
+        return
+    elif message.content == "!hours":
+        await channel.send("Current hours: " + str(hours))
+    elif message.content == "!break":
+        hours = 0
+        await channel.send("Hours reset.")
+    elif message.content.startswith("!sethours"):
+        a = message.content.split(' ')
+        print(a)
+        hours = int(a[1])
+        await channel.send("Hours set to: " + a[1])
 
+        
+async def bh(n):
+    global hours
+    await asyncio.sleep(60*60)
+    n += 1
+    hours = hours + 1
+    await bh(n)
+    
+    
 async def check():
     currtime = datetime.now()
     month = currtime.month
@@ -260,4 +287,5 @@ async def check():
     await check()
 
 client.loop.create_task(check())
+client.loop.create_task(bh(0))
 client.run(TOKEN)
