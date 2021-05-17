@@ -26,16 +26,18 @@ async def on_ready():
     
 @client.event
 async def on_message(message):
+    guild = client.get_guild(131876630959226880)
+    user = await guild.fetch_member(180381691720761344)
     channel = message.channel
     global hours
     if message.author.bot:
         return
-    elif message.content == "!hours":
+    elif message.content == "!hours" and message.author == user:
         await channel.send("Current hours: " + str(hours))
-    elif message.content == "!break":
+    elif message.content == "!break" and message.author == user:
         hours = 0
         await channel.send("Hours reset.")
-    elif message.content.startswith("!sethours"):
+    elif message.content.startswith("!sethours") and message.author == user:
         a = message.content.split(' ')
         print(a)
         hours = int(a[1])
