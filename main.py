@@ -72,7 +72,7 @@ async def check():
             await user.add_roles(role)
             user1 = await guild.fetch_member(102949862877696000)  # cj
             await user1.add_roles(role)
-            await channel.send('happy birthday bijay and cj')
+            await channel.send('habby habby birzday to bijay and cj 🎂🥰 DOUBLE WHAMMY')
             await channel.send(user.mention)
             await channel.send(user1.mention)
             await asyncio.sleep(86400)
@@ -84,7 +84,7 @@ async def check():
             await user.add_roles(role)
             user1 = await guild.fetch_member(152964018808553472)  # patrick
             await user1.add_roles(role)
-            await channel.send('happy birthday austin and patrick')
+            await channel.send('habby habby birzday to austin and patrick 🎂🥰 DOUBLE WHAMMY')
             await channel.send(user.mention)
             await channel.send(user1.mention)
             await asyncio.sleep(86400)
@@ -94,7 +94,7 @@ async def check():
             await client.wait_until_ready()
             user = await guild.fetch_member(169611631658008577)  # mitchell
             await user.add_roles(role)
-            await channel.send('happy birthday mitchell')
+            await channel.send('habby habby birzday to mitchell 🎂🥰')
             await channel.send(user.mention)
             await asyncio.sleep(86400)
             await user.remove_roles(role)
@@ -102,7 +102,7 @@ async def check():
             await client.wait_until_ready()
             user = await guild.fetch_member(263460873329180689)  # joey
             await user.add_roles(role)
-            await channel.send('happy birthday joey')
+            await channel.send('habby habby birzday to joey 🎂🥰')
             await channel.send(user.mention)
             await asyncio.sleep(86400)
             await user.remove_roles(role)
@@ -110,7 +110,15 @@ async def check():
             await client.wait_until_ready()
             user = await guild.fetch_member(276032470497886218)  # jordan
             await user.add_roles(role)
-            await channel.send('happy birthday jordan')
+            await channel.send('habby habby birzday to jordan 🎂🥰')
+            await channel.send(user.mention)
+            await asyncio.sleep(86400)
+            await user.remove_roles(role)
+        elif month == 3 and day == 27:
+            await client.wait_until_ready()
+            user = await guild.fetch_member(250797450019864576)  # nicky
+            await user.add_roles(role)
+            await channel.send('habby habby birzday to nicky 🎂🥰')
             await channel.send(user.mention)
             await asyncio.sleep(86400)
             await user.remove_roles(role)
@@ -118,7 +126,7 @@ async def check():
             await client.wait_until_ready()
             user = await guild.fetch_member(186557497178324992)  # muna
             await user.add_roles(role)
-            await channel.send('happy birthday muna')
+            await channel.send('habby habby birzday to muna 🎂🥰')
             await channel.send(user.mention)
             await asyncio.sleep(86400)
             await user.remove_roles(role)
@@ -126,7 +134,7 @@ async def check():
             await client.wait_until_ready()
             user = await guild.fetch_member(185891950472331264)  # zain
             await user.add_roles(role)
-            await channel.send('happy birthday zain')
+            await channel.send('habby habby birzday to zain 🎂🥰')
             await channel.send(user.mention)
             await asyncio.sleep(86400)
             await user.remove_roles(role)
@@ -134,7 +142,7 @@ async def check():
             await client.wait_until_ready()
             user = await guild.fetch_member(131876531223003138)  # aayush
             await user.add_roles(role)
-            await channel.send('happy birthday aayush')
+            await channel.send('habby habby birzday to aayush 🎂🥰')
             await channel.send(user.mention)
             await asyncio.sleep(86400)
             await user.remove_roles(role)
@@ -142,7 +150,7 @@ async def check():
             await client.wait_until_ready()
             user = await guild.fetch_member(231539753437102082)  # nick
             await user.add_roles(role)
-            await channel.send('happy birthday nick')
+            await channel.send('habby habby birzday to nick 🎂🥰')
             await channel.send(user.mention)
             await asyncio.sleep(86400)
             await user.remove_roles(role)
@@ -150,7 +158,7 @@ async def check():
             await client.wait_until_ready()
             user = await guild.fetch_member(335955007910182914)  # jonathan
             await user.add_roles(role)
-            await channel.send('happy birthday jonathan')
+            await channel.send('habby habby birzday to jonathan 🎂🥰')
             await channel.send(user.mention)
             await asyncio.sleep(86400)
             await user.remove_roles(role)
@@ -158,7 +166,7 @@ async def check():
             await client.wait_until_ready()
             user = await guild.fetch_member(180381691720761344)  # bivek
             await user.add_roles(role)
-            await channel.send('happy birthday bivek')
+            await channel.send('habby habby birzday to bivek 🎂🥰')
             await channel.send(user.mention)
             await asyncio.sleep(86400)
             await user.remove_roles(role)
@@ -166,7 +174,7 @@ async def check():
             await client.wait_until_ready()
             user = await guild.fetch_member(168721477099716609)  # charley
             await user.add_roles(role)
-            await channel.send('happy birthday jackson')
+            await channel.send('habby habby birzday to jackson 🎂🥰')
             await channel.send(user.mention)
             await asyncio.sleep(86400)
             await user.remove_roles(role)
@@ -174,7 +182,7 @@ async def check():
             await client.wait_until_ready()
             user = await guild.fetch_member(202586765394051094)  # piyush
             await user.add_roles(role)
-            await channel.send('happy birthday piyush')
+            await channel.send('habby habby birzday to piyush 🎂🥰h')
             await channel.send(user.mention)
             await asyncio.sleep(86400)
             await user.remove_roles(role)
@@ -182,7 +190,15 @@ async def check():
             await client.wait_until_ready()
             user = await guild.fetch_member(229246048470564866)  # owen
             await user.add_roles(role)
-            await channel.send('happy birthday owen')
+            await channel.send('habby habby birzday to owen 🎂🥰')
+            await channel.send(user.mention)
+            await asyncio.sleep(86400)
+            await user.remove_roles(role)
+        elif month == 8 and day == 29:
+            await client.wait_until_ready()
+            user = await guild.fetch_member(160565666125053952)  # nana
+            await user.add_roles(role)
+            await channel.send('habby habby birzday to nana 🎂🥰')
             await channel.send(user.mention)
             await asyncio.sleep(86400)
             await user.remove_roles(role)
@@ -190,7 +206,7 @@ async def check():
             await client.wait_until_ready()
             user = await guild.fetch_member(211616413553655810)  # tulley
             await user.add_roles(role)
-            await channel.send('happy birthday tulley')
+            await channel.send('habby habby birzday to tulley 🎂🥰')
             await channel.send(user.mention)
             await asyncio.sleep(86400)
             await user.remove_roles(role)
@@ -198,7 +214,7 @@ async def check():
             await client.wait_until_ready()
             user = await guild.fetch_member(147855665065492480)  # sean
             await user.add_roles(role)
-            await channel.send('happy birthday sean')
+            await channel.send('habby habby birzday to sean 🎂🥰')
             await channel.send(user.mention)
             await asyncio.sleep(86400)
             await user.remove_roles(role)
@@ -206,7 +222,7 @@ async def check():
             await client.wait_until_ready()
             user = await guild.fetch_member(168390637945618432)  # zihan
             await user.add_roles(role)
-            await channel.send('happy birthday zihan')
+            await channel.send('habby habby birzday to zihan 🎂🥰')
             await channel.send(user.mention)
             await asyncio.sleep(86400)
             await user.remove_roles(role)
@@ -214,7 +230,7 @@ async def check():
             await client.wait_until_ready()
             user = await guild.fetch_member(272465610707959810)  # ari
             await user.add_roles(role)
-            await channel.send('happy birthday ari')
+            await channel.send('habby habby birzday to ari 🎂🥰')
             await channel.send(user.mention)
             await asyncio.sleep(86400)
             await user.remove_roles(role)
@@ -222,7 +238,7 @@ async def check():
             await client.wait_until_ready()
             user = await guild.fetch_member(158656321367965696)  # jeremy
             await user.add_roles(role)
-            await channel.send('happy birthday jeremy')
+            await channel.send('habby habby birzday to jeremy 🎂🥰')
             await channel.send(user.mention)
             await asyncio.sleep(86400)
             await user.remove_roles(role)
@@ -230,7 +246,7 @@ async def check():
             await client.wait_until_ready()
             user = await guild.fetch_member(168400517884674048)  # asahi
             await user.add_roles(role)
-            await channel.send('happy birthday asahi')
+            await channel.send('habby habby birzday to asahi 🎂🥰')
             await channel.send(user.mention)
             await asyncio.sleep(86400)
             await user.remove_roles(role)
@@ -238,7 +254,7 @@ async def check():
             await client.wait_until_ready()
             user = await guild.fetch_member(118470162419679240)  # jovani
             await user.add_roles(role)
-            await channel.send('happy birthday jovani')
+            await channel.send('habby habby birzday to jovani 🎂🥰')
             await channel.send(user.mention)
             await asyncio.sleep(86400)
             await user.remove_roles(role)
@@ -246,7 +262,7 @@ async def check():
             await client.wait_until_ready()
             user = await guild.fetch_member(222794543987294208)  # martin
             await user.add_roles(role)
-            await channel.send('happy birthday martin')
+            await channel.send('habby habby birzday to martin 🎂🥰')
             await channel.send(user.mention)
             await asyncio.sleep(86400)
             await user.remove_roles(role)
@@ -254,7 +270,7 @@ async def check():
             await client.wait_until_ready()
             user = await guild.fetch_member(738170377003597955)  # poopsock
             await user.add_roles(role)
-            await channel.send('happy birthday poopsock')
+            await channel.send('habby habby birzday to poopsock 🎂🥰')
             await channel.send(user.mention)
             await asyncio.sleep(86400)
             await user.remove_roles(role)
@@ -262,7 +278,7 @@ async def check():
             await client.wait_until_ready()
             user = await guild.fetch_member(260904201998172160)  # theo
             await user.add_roles(role)
-            await channel.send('happy birthday theo')
+            await channel.send('habby habby birzday to theo 🎂🥰')
             await channel.send(user.mention)
             await asyncio.sleep(86400)
             await user.remove_roles(role)
